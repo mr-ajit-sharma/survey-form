@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background:linear-gradient(rgb(139, 211, 137),rgb(11, 139, 11)) ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: rgb(248, 243, 243);
+    min-height: 700px;
+    width: 1200px;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+}
+.all-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.container h1{
+    font-size: 33px;
+    color:rgb(11, 139, 11) ;
+    font-weight: 600;
+}
+.container p{
+    font-size: 15px;
+    margin: 7px 0;
+}
+.left-content,.right-content{
+    width: 49%; 
+    margin: 15px 0;
+}
+.input-box{
+    margin-top: 12px;
+}
+.input-box label{
+    font-weight: 500;
+ 
+}
+.input-box input,select,textarea{
+    width: 100%;
+    padding: .5rem;
+    background: transparent;
+    border: 1.5px solid #777;
+    outline: none;
+}
+textarea{
+    resize: none;
+}
+::placeholder,select{
+    color: rgb(11, 139, 11);
+    font-weight: 500;
+}
+.input-box:nth-child(5){
+    border: 1.5px solid #777;
+    padding: .5rem;
+}
+.input-box:nth-child(5) .age input{
+    width: 20px;
+}
+
+.input-box:nth-child(5) .age label{
+   position: relative;
+   top: -20px;
+   background: rgb(248, 243, 243);
+} 
+.input-box:nth-child(6) .age input{
+    width: 20px;
+    margin: 10px 0;
+}
+.right-content .input-box .age input{
+    width: 20px;
+    margin: 10px 0;
+}
+
+.btn{
+    width: 100%;
+    padding: .6rem;
+    margin: 10px 0;
+    background: rgb(11, 139, 11);
+    color: #fff;
+    outline: none;
+    border: none;
+}
+@media(max-width:894px){
+    .all-content{
+        flex-direction: column;
+    }
+    .left-content,.right-content{
+        width: 100%;
+    }
+}
