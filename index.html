@@ -2,93 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Survey Form</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aperiam ea quaerat, repellendus quod quos
-            eos, vero necessitatibus officia fuga est nam vel eum fugiat ipsum, nulla natus minima enim?</p>
-            <div class="all-content">
-        <div class="left-content">
-            <form action="#">
-                <div class="input-box">
-                    <label for="">Your Name</label>
-                    <input type="text" placeholder="Enter your name">
-                </div>
-                <div class="input-box">
-                    <label for="">Your Email Address</label>
-                    <input type="email" placeholder="user@user.com">
-                </div>
-                <div class="input-box">
-                    <label for="">Your Phone number</label>
-                    <input type="tel" placeholder="99999999999">
-                </div>
-                <div class="input-box">
-                    <label for="">Where do You Live ?</label>
-                    <select name="" id="">
-                        <option value="#">Select</option>
-                    </select>
-                </div>
-                <div class="input-box">
-                    <label for="">Age</label>
-                  <div class="age">
-                    <span><input type="radio">15-20</span>
-                    <span><input type="radio">41-50</span>
-                  </div>
-                  <div class="age">
-                    <span><input type="radio">20-30</span>
-                    <span><input type="radio">Perfer not to say</span>
-                  </div>
-                  <div class="age">
-                    <span><input type="radio">31-40</span>
-                  </div>
-                </div>
-                <div class="input-box">
-                    <label for="">How would you rate your profiency in coding ?</label>
-                    <div class="age">
-                        <span><input type="radio">Beginner</span>
-                      </div>
-                      <div class="age">
-                        <span><input type="radio">Beginner</span>
-                      </div>
-                      <div class="age">
-                        <span><input type="radio">Beginner</span>
-                      </div>
-                </div>
+  <div class="container">
+    <h1>Survey Form</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aperiam ea quaerat, repellendus quod quos
+      eos, vero necessitatibus officia fuga est nam vel eum fugiat ipsum, nulla natus minima enim?</p>
+    <div class="all-content">
+      <div class="left-content">
+        <form action="#">
+          <div class="input-box">
+            <label for="">Your Name</label>
+            <input type="text" placeholder="Enter your name">
+          </div>
+          <div class="input-box">
+            <label for="">Your Email Address</label>
+            <input type="email" placeholder="user@user.com">
+          </div>
+          <div class="input-box">
+            <label for="">Your Phone number</label>
+            <input type="tel" placeholder="99999999999">
+          </div>
+          <div class="input-box">
+            <label for="">Where do You Live ?</label>
+            <select name="" id="">
+              <option value="#">Select</option>
+              <option value="#">Delhi</option>
+              <option value="#">Mumbai</option>
+              <option value="#">Chennai</option>
+            </select>
+          </div>
+          <fieldset class="input-box">
+            <legend for="">Age</legend>
+            <div class="age">
+              <span><input type="radio">15-20</span>
+              <span><input type="radio">41-50</span>
+            </div>
+            <div class="age">
+              <span><input type="radio">20-30</span>
+              <span><input type="radio">Perfer not to say</span>
+            </div>
+            <div class="age">
+              <span><input type="radio">31-40</span>
+            </div>
+          </fieldset>
+          <div class="input-box">
+            <label for="">How would you rate your profiency in coding ?</label>
+            <div class="age">
+              <span><input type="radio">Beginner</span>
+            </div>
+            <div class="age">
+              <span><input type="radio">Intermediate</span>
+            </div>
+            <div class="age">
+              <span><input type="radio">Advance</span>
+            </div>
+          </div>
 
-            </form>
+        </form>
+      </div>
+      <div class="right-content">
+        <div class="input-box">
+          <label for="">Have You Ever Append in any coding</label>
+          <div class="age">
+            <span><input type="radio">Yes</span>
+          </div>
+          <div class="age">
+            <span><input type="radio">No</span>
+          </div>
         </div>
-        <div class="right-content">
-            <div class="input-box">
-                <label for="">Have You Ever Append in any coding</label>
-                <div class="age">
-                    <span><input type="radio">Yes</span>
-                  </div>
-                  <div class="age">
-                    <span><input type="radio">No</span>
-                  </div>
-            </div>
-            <div class="input-box">
-                <label for="">Your Phone number</label>
-              <textarea name="" id="" cols="40" rows="3"></textarea>
-            </div>
-            <div class="input-box">
-                <label for="">Your Phone number</label>
-              <textarea name="" id="" cols="40" rows="3"></textarea>
-            </div>
-            <div class="input-box">
-                <label for="">Your Phone number</label>
-              <textarea name="" id="" cols="40" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn">Submit Form</button>
+        <div class="input-box">
+          <label for="">Discuss what drives your passion for coding and outline your aspirations in the field</label>
+          <textarea name="" id="" cols="40" rows="3"></textarea>
         </div>
+        <div class="input-box">
+          <label for="">What are challenges you face while coding</label>
+          <textarea name="" id="" cols="40" rows="3"></textarea>
+        </div>
+        <div class="input-box">
+          <label for="">Please list the data structure you have strong understanding of</label>
+          <textarea name="" id="" cols="40" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn">Submit Form</button>
+      </div>
     </div>
-</div>
+  </div>
 </body>
 
 </html>
